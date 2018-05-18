@@ -1,0 +1,12 @@
+test1
+alex
+fedor
+sergey
+Once created, the distributed dataset (distData) can be operated on in parallel.
+ For example, we might call distData.reduce((a, b) => a + b) to add up the elements of the array.
+ We describe operations on distributed datasets later on.
+One important parameter for parallel collections is the number of partitions to cut the dataset into.
+ Spark will run one task for each partition of the cluster. Typically you want 2-4 partitions for each CPU in your cluster.
+  Normally, Spark tries to set the number of partitions automatically based on your cluster.
+  However, you can also set it manually by passing it as a second parameter to parallelize (e.g. sc.parallelize(data, 10)).
+ Note: some places in the code use the term slices (a synonym for partitions) to maintain backward compatibility.

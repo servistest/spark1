@@ -1,0 +1,12 @@
+WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+
+INFO SparkContext: Submitted application: NetworkWordCount
+
+
+ERROR Utils: Successfully started service 'sparkDriver' on port 42171.
+WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+
+INFO SparkContext: Submitted application: NetworkWordCount
+
+
+ERROR Utils: Successfully started service 'sparkDriver' on port 42171.

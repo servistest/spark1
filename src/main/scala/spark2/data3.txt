@@ -1,0 +1,9 @@
+18/03/22 18:45:50 INFO Executor: Finished task 0.0 in stage 6.0 (TID 12). 1138 bytes result sent to driver
+18/03/22 18:45:50 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 12) in 14 ms on localhost (executor driver) (1/2)
+18/03/22 18:45:50 INFO Executor: Finished task 1.0 in stage 6.0 (TID 13). 1138 bytes result sent to driver
+18/03/22 18:45:50 ERROR TaskSetManager: Finished task 1.0 in stage 6.0 (TID 13) in 16 ms on localhost (executor driver) (2/2)
+18/03/22 18:45:50 ERROR TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool
+18/03/22 18:45:50 ERROR DAGScheduler: Got job 5 (count at sparkTest8.scala:38) with 2 output partitions
+18/03/22 18:45:50 ERROR DAGScheduler: Final stage: ResultStage 7 (count at sparkTest8.scala:38)
+18/03/22 18:45:50 INFO Executor: Finished task 0.0 in stage 7.0 (TID 14). 832 bytes result sent to driver
+18/03/22 18:45:50 INFO TaskSetManager: Finished task 0.0 in stage 7.0 (TID 14) in 7 ms on localhost (executor driver) (1/2)
